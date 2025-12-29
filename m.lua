@@ -89,12 +89,12 @@ end)
         v25 = loadstring(readfile("maclib.txt"))()
         print("Loaded local MacLib with custom background support")
     else
-        v25 = loadstring(game:HttpGet("https://lolikon.su/vo/maclib.txt"))()
+        v25 = loadstring(game:HttpGet("https://raw.githubusercontent.com/dwbqgod/forgehack/refs/heads/main/maclib.txt"))()
         print("Loaded remote MacLib (local version not found)")
     end
     local vu26 = v25:Window({
         Title = "ПОТУЖНИЙ ЧIТ",
-        Subtitle = "t.me/BIood_AngeI",
+        Subtitle = "t.me/Loli_lua",
         Size = UDim2.fromOffset(800, 650),
         DragStyle = 2,
         DisabledWindowControls = {},
